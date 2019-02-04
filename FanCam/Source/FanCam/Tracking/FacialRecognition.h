@@ -22,6 +22,7 @@ class FacialRecognition : public TrackingRunnable
 public:
 
 	FacialRecognition(cv::Mat& IN_VideoFrame, TArray<FVector2D>& IN_Vertices, int32& IN_VertexFoundCount, const int32 IN_MaxVertices);
+	virtual ~FacialRecognition();
 
 	FacialRecognition* getInstance(cv::Mat& IN_VideoFrame, TArray<FVector2D>& IN_Vertices, int32& IN_VertexFoundCount, const int32 IN_MaxVertices);
 
