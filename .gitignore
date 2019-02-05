@@ -75,3 +75,6 @@
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+!ThirdParty/OpenCV/Libraries/Win64/*.dll
+!ThirdParty/OpenCV/Libraries/Win64/*.lib
